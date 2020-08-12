@@ -10,8 +10,8 @@ var result1Score = 0;
 
 //#TODO: Use the DOM to create variables for the first quiz question.
 var q1a1 = document.getElementById("q1a1");
-
-
+var q1a2 = document.getElementById("q1a2");
+var 
 
 
 
