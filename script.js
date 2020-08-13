@@ -54,6 +54,7 @@ q4a4.addEventListener("click", buzzLightyear);
 function spiderman() {
   spidermanScore += 1;
   questionCount += 1;
+  //alert("Spiderman!");
   if (questionCount >= 4) {
     updateResult();
   }
@@ -62,6 +63,7 @@ function spiderman() {
 function blackWidow() {
   blackWidowScore += 1;
   questionCount += 1;
+  //alert("Black Widow!");
   if (questionCount >= 4) {
     updateResult();
   }
@@ -70,6 +72,7 @@ function blackWidow() {
 function starLord() {
   starLordScore += 1;
   questionCount += 1;
+  //alert("Starlord!");
   if (questionCount >= 4) {
     updateResult();
   }
@@ -78,6 +81,7 @@ function starLord() {
 function buzzLightyear() {
   buzzLightyearScore += 1;
   questionCount += 1;
+  //alert("Buzz Lightyear!");
   if (questionCount >= 4) {
     updateResult();
   }
@@ -95,6 +99,6 @@ function updateResult() {
   } else if (buzzLightyearScore >= 2) {
     result.innerHTML = "Buzz Lightyear!";
   } else{
-    result.innerHTML = "We're not sure, but let's go with Captain Marvel!"
+    result.innerHTML = "We're not sure, but let's go with Captain Marvel! "
 }
 }
