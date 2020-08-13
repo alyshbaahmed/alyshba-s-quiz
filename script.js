@@ -7,7 +7,6 @@ var blackWidowScore = 0;
 var starLordScore = 0;
 var buzzLightyearScore = 0;
 
-
 //#TODO: Use the DOM to create variables for the first quiz question.
 var q1a1 = document.getElementById("q1a1");
 var q1a2 = document.getElementById("q1a2");
@@ -50,62 +49,52 @@ q2a4.addEventListener("click", buzzLightyear);
 q3a4.addEventListener("click", buzzLightyear);
 q4a4.addEventListener("click", buzzLightyear);
 
-
 //#TODO: Define quiz functions here
 
-
-function spiderman(){
+function spiderman() {
   spidermanScore += 1;
   questionCount += 1;
-  if (questionCount >= 3){
-      updateResult();
+  if (questionCount >= 4) {
+    updateResult();
   }
 }
 
-function blackWidow(){
-  blackWidowScore+=1;
-  questionCount+=1;
-  if (questionCount >= 3){
-      updateResult();
+function blackWidow() {
+  blackWidowScore += 1;
+  questionCount += 1;
+  if (questionCount >= 4) {
+    updateResult();
   }
 }
 
-function starLord(){
-  starLordScore+=1;
-  questionCount+=1; 
-  if (questionCount >= 3){
-      updateResult();
+function starLord() {
+  starLordScore += 1;
+  questionCount += 1;
+  if (questionCount >= 4) {
+    updateResult();
   }
-  
 }
 
-function buzzLightyear(){
-  buzzLightyearScore+=1;
-  questionCount+=1;
-  if (questionCount >= 3){
-      updateResult();
+function buzzLightyear() {
+  buzzLightyearScore += 1;
+  questionCount += 1;
+  if (questionCount >= 4) {
+    updateResult();
   }
-  
 }
 
-function result(){
-  
-}
+var result = document.getElementById("result")
 
-function updateResult(){
- if (spidermanScore >= 2){
-         result.innerHTML = "Spiderman!";
- }
- else if(blackWidowScore >=2){
-        result.innerHTML = "Black Widow!";
- }
- else if(starLordScore >=2){
+function updateResult() {
+  if (spidermanScore >= 2) {
+    result.innerHTML = "Spiderman!";
+  } else if (blackWidowScore >= 2) {
+    result.innerHTML = "Black Widow!";
+  } else if (starLordScore >= 2) {
     result.innerHTML = "Starlord!";
- }
- else if (buzzLightyearScore>= 2){
+  } else if (buzzLightyearScore >= 2) {
     result.innerHTML = "Buzz Lightyear!";
- }
- else{
-    result.innerHTML = "Hmm.. The Sorting Hat is confused. Try again later.";
- }
+  } else{
+    result.innerHTML = "We're not sure, but let's go with Captain Marvel!"
+}
 }
