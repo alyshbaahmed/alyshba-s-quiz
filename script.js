@@ -53,8 +53,8 @@ q4a4.addEventListener("click", buzzLightyear);
 
 //#TODO: Define quiz functions here
 function spiderman(){
-  
-  
+
+
   
 }
 
