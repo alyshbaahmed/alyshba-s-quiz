@@ -2,10 +2,10 @@
 //This is where you will define the variables you will be using in your project.
 //#TODO: Create four variables to track each possible quiz outcome
 var questionCount = 0;
-var result1Score = 0;
-var result2score = 0;
-var result3Score = 0;
-var result4score = 0;
+var spidermanScore = 0;
+var blackWidowScore = 0;
+var starLordScore = 0;
+var buzzLightyearScore = 0;
 
 
 //#TODO: Use the DOM to create variables for the first quiz question.
@@ -53,25 +53,26 @@ q4a4.addEventListener("click", buzzLightyear);
 
 //#TODO: Define quiz functions here
 function spiderman(){
-
+  spidermanScore+=1;
+  questionCount+=1;
 
   
 }
 
 function blackWidow(){
-  
-  
+  blackWidowScore+=1;
+  questionCount+=1;
   
 }
 
 function starLord(){
-  
-  
+  starLordScore+=1;
+  questionCount+=1; 
   
 }
 
 function buzzLightyear(){
-  
-  
+  buzzLightyearScore+=1;
+  questionCount+=1;
   
 }
