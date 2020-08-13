@@ -1,7 +1,7 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  font-family: 'Questrial', sans-serif;
   margin: 2em;
   background-color: #f8f2ec;
 }
@@ -9,6 +9,8 @@ body {
 h1 {
   font-style: italic;
   color: #cfa67d;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 60px
 }
 
 h2 {
@@ -43,12 +45,3 @@ h2 {
   font-size: 16px;
 }
 
-{
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
