@@ -52,27 +52,56 @@ q4a4.addEventListener("click", buzzLightyear);
 
 
 //#TODO: Define quiz functions here
-function spiderman(){
-  spidermanScore+=1;
-  questionCount+=1;
 
-  
+
+function spiderman(){
+  spidermanScore += 1;
+  questionCount += 1;
+  if (questionCount >= 3){
+      updateResult();
+  }
 }
 
 function blackWidow(){
   blackWidowScore+=1;
   questionCount+=1;
-  
+  if (questionCount >= 3){
+      updateResult();
+  }
 }
 
 function starLord(){
   starLordScore+=1;
   questionCount+=1; 
+  if (questionCount >= 3){
+      updateResult();
+  }
   
 }
 
 function buzzLightyear(){
   buzzLightyearScore+=1;
   questionCount+=1;
+  if (questionCount >= 3){
+      updateResult();
+  }
   
+}
+
+function updateResult(){
+ if (spidermanScore >= 2){
+         result.innerHTML = "Gryffindor!";
+ }
+ else if(slytherinScore >=2){
+        result.innerHTML = "Slytherin!";
+ }
+ else if(ravenclawScore >=2){
+    result.innerHTML = "Ravenclaw!";
+ }
+ else if (hufflepuffScore>= 2){
+    result.innerHTML = "Hufflepuff!";
+ }
+ else{
+    result.innerHTML = "Hmm.. The Sorting Hat is confused. Try again later.";
+ }
 }
