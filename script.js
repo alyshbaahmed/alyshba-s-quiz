@@ -88,18 +88,22 @@ function buzzLightyear(){
   
 }
 
+function result(){
+  
+}
+
 function updateResult(){
  if (spidermanScore >= 2){
-         result.innerHTML = "Gryffindor!";
+         result.innerHTML = "Spiderman!";
  }
- else if(slytherinScore >=2){
-        result.innerHTML = "Slytherin!";
+ else if(blackWidowScore >=2){
+        result.innerHTML = "Black Widow!";
  }
- else if(ravenclawScore >=2){
-    result.innerHTML = "Ravenclaw!";
+ else if(starLordScore >=2){
+    result.innerHTML = "Starlord!";
  }
- else if (hufflepuffScore>= 2){
-    result.innerHTML = "Hufflepuff!";
+ else if (buzzLightyearScore>= 2){
+    result.innerHTML = "Buzz Lightyear!";
  }
  else{
     result.innerHTML = "Hmm.. The Sorting Hat is confused. Try again later.";
