@@ -50,7 +50,17 @@ h3 {
   color: #f2d4b1;
   background-color: white;
   padding: 15px 32px;
-  border; 3px;
-  border-color: black
   
+}
+
+button {
+  background-color: #f2e6da;
+  border: none;
+  color: black;
+  padding: 6px 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Questrial', sans-serif;
 }
