@@ -91,14 +91,14 @@ var result = document.getElementById("result")
 
 function updateResult() {
   if (spidermanScore >= 2) {
-    result.innerHTML = "Spiderman!";
+    result.innerHTML = "Your result is our freindly-neighborhood Spiderman!";
   } else if (blackWidowScore >= 2) {
-    result.innerHTML = "Black Widow!";
+    result.innerHTML = "Your result is Black Widow!";
   } else if (starLordScore >= 2) {
-    result.innerHTML = "Starlord!";
+    result.innerHTML = "Your result is Starlord!";
   } else if (buzzLightyearScore >= 2) {
-    result.innerHTML = "Buzz Lightyear!";
+    result.innerHTML = "Your result Buzz Lightyear. To infinity and beyond!!";
   } else{
-    result.innerHTML = "We're not sure, but let's go with Captain Marvel! "
+    result.innerHTML = "We're not sure, but let's go with Captain Marvel! You're awesome in every way."
 }
 }

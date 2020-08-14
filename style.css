@@ -45,3 +45,12 @@ h2 {
   font-size: 16px;
 }
 
+h3 {
+  font-size: 100px;
+  color: #f2d4b1;
+  background-color: white;
+  padding: 15px 32px;
+  border; 3px;
+  border-color: black
+  
+}
